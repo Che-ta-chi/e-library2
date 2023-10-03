@@ -1,0 +1,592 @@
+/* the navbar starts here */
+.more{
+    margin-left: 600px;
+
+}
+
+.size{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.space1{
+    margin-right: 20px;
+}
+.space2{
+    background-color: #0f172a;
+}
+
+.size2{
+    font-size: 20px;
+}
+/* it is used to create responsive layouts */
+@media  (max-width: 600px){
+.more{
+    margin: 10px;
+}
+}
+    /* the navbar ends here */
+
+    /* herosection start here */
+.herosection{
+    background-image: url(./image/web1\ -\ Copy.webp);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    /* the herosection ends here */
+
+
+    .pageheader{
+        font-size: 80px;
+        text-align: center;
+        color: white;
+        font-family: cursive;
+    }
+    .hop{
+        width: 60%;
+        margin-left: 260px;
+        margin-top: 80px;
+
+    }
+    .search{
+        text-align: center;
+    }
+
+    /* it is used to create responsive layouts */
+@media  (max-width: 600px){
+    .pageheader{
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        font-family: cursive;
+    }
+    .hop{
+        width: 100%;
+        margin-left: 10px;
+        
+
+    }
+    }
+    
+    .top{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    /* gride starts here */
+    .grid{
+        width: 80%;
+        height: 120px;
+        padding: 20px;
+        margin: 1px;
+        background-color:white;
+        margin-left: 140px;
+        box-shadow: 0 0 3px 3px whitesmoke;
+        border-radius: 10px;
+        margin-top: -65px;
+        text-align: center;
+        
+    
+    }
+    /* grid ends here */
+
+    .rop1{
+        font-size: 50px;
+        color: goldenrod;
+    }
+
+    .rop2{
+        font-size: 50px;
+        color: green;
+        
+    }
+
+    .rop3{
+        font-size: 50px;
+        color: blue;
+        
+    }
+
+    .rop4{
+        font-size: 50px;
+        color: brown;
+        
+    }
+
+
+    
+    /* it is used to create responsive layouts */
+@media  (max-width: 600px){
+         /* gride  for mobile view starts here */
+    .grid{
+        width: 100%;
+        height: 230px;
+        padding: 20px;
+        margin: 1px;
+        background-color:white;
+        margin: 1px;
+        box-shadow: 0 0 3px 3px whitesmoke;
+        border-radius: 10px;
+        margin-top: -80px;
+        text-align: center;
+    
+    }
+    /* grid ends here */
+
+
+    }
+    
+    .grid2{
+        width: 80%;
+        height: 20vh;
+        padding: 20px;
+        margin: 1px;
+        background-color:white;
+        margin-left: 200px;
+        /* box-shadow: 0 0 3px 3px whitesmoke; */
+        border-radius: 10px;
+        margin-top: 35px;
+    
+    }
+
+    @media  (max-width: 600px){
+        /* gride2  for mobile view starts here */
+   .grid2{
+       width: 100%;
+       height: 230px;
+       padding: 20px;
+       margin: 1px;
+       background-color:white;
+       margin: 1px;
+       box-shadow: 0 0 3px 3px whitesmoke;
+       border-radius: 10px;
+       /* margin-top: 20px; */
+       text-align: center;
+   
+   }
+   /* grid ends here */
+
+
+   }
+
+   .grid3{
+    padding: 20px;
+    margin: 500px;
+    background-color:white;
+       border-radius: 10px;
+    margin-top: 35px;
+    text-align: center;
+
+}
+
+ .carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex
+}
+
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%)
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%)
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0)
+} 
+.cheta{
+    margin-top: 200px;
+    
+}
+.we{
+    text-align: center;
+}
+
+
+/* th table starts here */
+.table1{
+    margin-top: 100px;
+}
+
+.td1{
+    text-align: center; 
+}
+
+.td2{
+    border-radius: 20px;
+}
+.td3{
+    color: rgb(242, 227, 18);
+}
+
+.td5{
+    border-radius: 20px;
+    
+}
+
+/* the table end here */
+
+/* the yellow image starts here */
+.imagey{
+    background-image: url(./image/web18.webp);
+    width: 80%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 150px;
+    margin-top: 60px;
+    
+}
+
+.imagey1{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.imagey2{
+    margin-left: 170px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.yellosearch{
+    border: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    background-color:  grey;
+    font-size: 20px;
+    color: white;
+}
+
+.yellosearch:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+   
+/* mobile view for yellow image */
+@media (max-width: 600px) {
+    .imagey{
+        background-image: url(./web18.webp);
+        width: 95%;
+        height: 80vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .imagey2{
+        margin-left: 10px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+}
+
+
+ /* gride starts here */
+ .sss{
+    width: 90%;
+    height: 120px;
+    padding: 10px;
+    margin: 1px;
+    background-color:white;
+    /* margin-left: 140px; */
+    box-shadow: 0 0 3px 3px whitesmoke;
+    border-radius: 10px;
+    /* margin-top: -65px; */
+    text-align: center;
+    
+
+}
+/* grid ends here */
+
+@media (max-width: 600px) {
+    .sss{
+        width: 90%;
+        height: 120px;
+        padding: 10px;
+        margin: 10px;
+        background-color:white;
+        /* margin-left: 140px; */
+        box-shadow: 0 0 3px 3px whitesmoke;
+        border-radius: 10px;
+        /* margin-top: -65px; */
+        text-align: center;
+        
+    
+    }  
+    
+}
+
+/* div for laptop nad phone device starts here */
+.lapf{
+    width: 80%;
+    height: 60vh;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 4px solid #EAA000;
+    margin-left: 150px;
+    margin-top: 60px;
+    display: flex;
+    background-color: white;
+
+}
+.icon{
+    color: #EAA000;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.button1{
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:yellow;
+    
+}
+.button1:hover{
+    background-color:palevioletred
+
+}
+.button{
+    
+    text-decoration: none;
+    color: white;
+
+}
+.button:hover{
+    
+    text-decoration: none;
+    color: black;
+
+}
+
+.free{
+    margin: 10px;
+}
+
+@media (max-width: 600px){
+
+
+    .lapf{
+        width: 95%;
+        height: 70vh;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 4px solid #EAA000;
+        margin-left: 10px;
+        margin-top: 60px;
+        /* display: flex; */
+        background-color: white;
+    
+    }
+    .icon{
+        color: #EAA000;
+        margin: 10px;
+    }
+
+    .button1{
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+        background-color:yellow;
+        border-radius: 10px;
+        border: 1px solid yellow;
+        
+    }
+    
+    .free{
+        margin: 2px;
+    }
+    
+}
+
+
+
+
+/* div for laptop nad phone device ends here*/
+
+
+/* .system1{
+    background-image: url(./multipleDevice.webp);
+    width: 95%;
+    height: 60vh;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    
+    
+}    */
+
+ .system{
+    border: 10px;
+    border-radius: 20px;
+    background-color: beige;
+} 
+
+.system2{
+    
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.ssd{
+    font-size: 50px;
+    text-align: center;
+}
+
+.mar{
+    background-color:white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px;
+    
+}
+
+.mar22{
+    margin: 40px;
+}
+
+.pp{
+    text-align: right;
+    font-size: 30px;
+}
+
+.pp1{
+    /* border: 20px; */
+    /* background-color: whitesmoke; */
+    margin: 70px;
+}
+.pp2{
+    text-align: center;
+    margin-left: 170px;
+    margin-top: -80px;
+}
+/* footer starts here */
+
+.footer{
+    background: black;
+    height: 95vh;
+    /* border: 20px; */
+    /* border-radius: 20px; */
+    color: white;
+   
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+
+.footer1{
+    
+    font-size: 30px;
+
+    
+    
+}
+.footer9{
+    width: 30%;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0);
+}
+.footer2{
+    text-align: center;
+    margin-top: 40px;
+}
+.hop2{
+    width: 60%;
+    margin-left: 260px;
+    margin-top: 10px;
+
+}
+
+
+@media  (max-width: 600px){
+    
+    .hop2{
+        width: 100%;
+        margin-left: 10px;
+        
+
+    }
+    }
+    .line{
+        width: 60%;
+        height: 3px;
+        background-color:yellow;
+    }
+
+    .line2{
+        width: 140%;
+        height: 3px;
+        background-color:yellow;
+    }
+    @media  (max-width: 600px){
+        .footer{
+            background: black;
+            height: 200vh;
+            /* border: 20px; */
+            /* border-radius: 20px; */
+            color: white;
+           
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+            
+        }
+        .zzz{
+            margin-top: -70px;
+        }
+        
+        
+    }
+
+    .social{
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    .search22{
+      border: 10px;
+      border-radius: 30px;
+    
+        
+    }
+        
+       
+    
+    
+    
+
+  /* footr ends here */
+      
